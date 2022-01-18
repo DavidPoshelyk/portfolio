@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Componets/Header/Header";
+import Bloc1 from "./Componets/Bloc-1/Bloc-1";
+import Bloc2 from "./Componets/Bloc-2/Bloc-2";
+import Bloc3 from './Componets/Bloc-3/Bloc-3';
+import Bloc4 from './Componets/Bloc-4/Bloc-4';
+import Bloc5 from './Componets/Bloc-5/Bloc-5';
+import Footer from "./Componets/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+          <Header/>
+          <Bloc1/>
+          <Bloc2/>
+          <Bloc3/>
+          <Bloc4/>
+          <Bloc5/>
+          <Footer/>
+      </div>
   );
 }
 
