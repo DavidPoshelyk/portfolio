@@ -1,0 +1,47 @@
+.footer{
+    min-height: 20vh;
+    background-color: #204b60;
+
+}
+.container{
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.imName{
+    background-color: #45bcf8;
+}
+.items{
+    height: 40px;
+    width: 310px;
+    background-color: #a5b7c0;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.p{
+    height: 20px;
+    text-align: center;
+    background-color: #42bcfa;
+}
+.div1{
+    width: 10%;
+    background-color: #33aeec;
+}
+.div2{
+    width: 10%;
+    background-color: #33aeec;
+}
+.div3{
+    width: 10%;
+    background-color: #33aeec;
+}
+.div4{
+    width: 10%;
+    background-color: #33aeec;
+}

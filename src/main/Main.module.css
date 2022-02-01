@@ -1,6 +1,6 @@
 .main{
     background-color: #cb9ad9;
-    height: 100vh;
+    min-height: 50vh;
 }
 .container{
     border: 1px solid;
