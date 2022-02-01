@@ -40,3 +40,18 @@
 .send{
     background-color: #33aeec;
 }
+@media (max-width: 360px) {
+
+    .input1{
+        width: 90%;
+        height: 20%;
+    }
+    .input2{
+        width: 90%;
+        height: 20%;
+    }
+    .textarea{
+        width: 90%;
+        height: 30%;
+    }
+}
